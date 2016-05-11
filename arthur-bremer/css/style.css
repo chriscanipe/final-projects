@@ -1,0 +1,96 @@
+body{
+    font: 10px sans-serif;
+}
+
+.axis {
+    fill:#000
+}
+
+.axis path,
+.axis line{
+    fill:none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path{
+    display: none;
+}
+
+
+.line{
+    fill: none;
+    stroke: lightgrey;
+    stroke-width: 2.5px;
+}
+
+.byline{
+    font-size: 20px;
+}
+.meta{
+    font-size: 15px;
+}
+
+.line.MLB_Avg {
+    stroke: blue;
+}
+.line.AL_Avg{
+    stroke: green;
+}
+.line.NL_Avg{
+    stroke: black;
+}
+#source-line{
+    font-size: 15px;
+}
+.chart {
+  height: 500px;
+  position: relative;
+}
+.dot{
+    opacity: 0;
+}    
+
+.team.active .line{
+    stroke: red;
+}
+
+.team text {
+    opacity: 0;
+}
+
+.team.active text {
+     opacity: 1;
+     font-size: 15px;   
+}
+
+
+
+.team.active .line {
+    stroke: red;
+}
+
+
+
+.tt {
+    background-color: #fff;
+    padding: 8px;
+    outline: 1px solid #ccc;
+    display: none;
+    position: absolute;
+}
+.tt.team_name{
+    font-size: 14px;
+}
+.tt.year_play{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.tt.time_average{
+    font-size: 18px;
+    font-weight: bold;
+}
+.text_box{
+    font-size: 20px;
+    font-weight: bold;
+}

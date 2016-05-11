@@ -1,0 +1,1 @@
+This is a line chart of enrollment data for Columbia, MO elementary schools

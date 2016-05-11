@@ -1,0 +1,86 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>Final Project Rough</title><?php /* EDIT ME */ ?>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body class="">
+
+    <div id="main-wrapper" class="">
+        <div id="main-content" class="container">
+            <header class="row">
+                <div class="social-links col-md-12"></div>
+                <div class="col-md-12">
+
+                    <h1>Is Chicago Still Crime City?</h1>
+                    <div class="byline">By <a href="http://www.shelby-mann.com" target="_blank">Shelby Mann</a></div>                     
+                    <div class="meta">
+                        Published May 5, 2016
+                    </div>
+                </div>
+            </header>
+
+            <section class="row">
+                
+            <div class="btn-group col-md-12" role="group" aria-label="...">
+                <button val="crimeRate" class="btn btn-default active">Rate of Violence</button>
+                <button val="rapeRate" class="btn btn-default">Rate of Violence with Rape</button>
+                </div>
+                
+            <div id="text-box" class="col-md-4 col-sm-6 col-xs-12 text-box">
+                     <h3>Chicago crime rates lower than other 'dangerous' cities</h3>
+                     <p>Chicago has long been considered one of, if not the most dangerous cities in the United States; however, the smaller Memphis, TN has also been considered high up on the list of cities that aren't considered safe. This graph looks at how the two cities compare with other high-ranking "dangerous cities."</p>
+                    <p>There is, however, a caveat to the data. The data comes from the FBI uniform crime database, which critics say is oftentimes not the most accurate. For example, the FBI says Chicago's rape rate isn't included in their data because the Chicago Police Department "underreported" that particular crime, so they left it out altogether. Additionally, there are issues with the surrounding population size. Chicago's population size is significantly higher than a lot of the other cities it's compared to in this graph. Becasue the population is so much larger, the borders of the city include lower-crime neighborhoods, bringing down the crime rate.</p>
+                    <p>--</p>
+                    <p id="note">Crime rate is calculated by adding all violent crime (murder, manslaughter, robbery and assault). The sum is then divided by the population, and is then multiplied by 100,000. Rape was excluded in this chart because Chicago's numbers are not reported. To see how the crime rates affect the other 10 cities when rape is included, click the button "rate of violence with rape."</p>
+                    <p id="note">In 2010, crime in Birmingham was only reported for 6 months, so that year is incomplete.</p>
+                </div> 
+                
+                <div id="chart" class="col-md-8 col-sm-6 col-xs-12 chart">
+                     <!-- ********* -->
+                <!-- The empty div for the tooltip goes inside of our chart div -->
+                <!-- ********* -->
+                <div class="tt"></div>
+          
+                </div> 
+
+            </section>
+
+            <footer>
+                <div id="source-line">Source: <a href="https://www.fbi.gov/stats-services/crimestats" target="_blank">FBI federal crime report</a></div>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+    <!-- jQuery.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- D3.js -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.js" charset="utf-8"></script>-->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

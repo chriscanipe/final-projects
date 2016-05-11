@@ -1,0 +1,58 @@
+
+.chart {
+  height: 500px;
+}
+
+.location {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header {
+    font-family: 'PT Serif', serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.byline {
+    margin: 10px;
+    font-family: Arial;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.text {
+    margin: 10px;
+    font-family: "Georgia";
+    font-size: 16px;
+}
+
+.innertext {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+}
+
+.dek {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    color: #818285;
+}
+
+
+div.col-md-6 {
+    margin-left: 260px;
+}
+
+.top-header {
+    background-color: black;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.top-header img {
+    width: 100px;
+}

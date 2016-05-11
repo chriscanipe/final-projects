@@ -1,0 +1,49 @@
+.btn-group {
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+/*  display: none;*/
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+#text-box {
+    text-align: left;
+}
+
+#note {
+    font-size: 12px;
+}
+
+.chart {
+  height: 450px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font: 10px sans-serif;
+}
+
+#source-line {
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+/*trash
+body {
+  font: 10px sans-serif;
+}*/

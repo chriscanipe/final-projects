@@ -1,0 +1,79 @@
+/* An outer wrapper to hold all of our charts. */
+/* Needs a 'relative' position so that the absolute position has an container to obey */
+.charts-here {
+	position: relative; /* Relative position !! */
+	height: 600px;
+}
+
+/* Common styles for all three of our chart containers */
+/* Hide all of them by default with `display: none;` */
+/* We'll use javascript to hide and show them when buttons get clicked */
+.chart-container {
+	display: none;
+	position: absolute; /* Absolute position !! */
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+/* Common styles for all three of our charts */
+.chart-container .chart {
+  height: 500px;
+  width: 100%;
+}
+
+/* Common styles for all three of our charts */
+.chart1 {
+	display: block;
+}
+
+.chart1 {
+  height: 500px;
+}
+
+.chart2 {
+  height: 500px;
+}
+
+.chart3 {
+  height: 500px;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+path.area {
+  opacity: .5;
+}
+
+.x.axis path {
+  /*display: none;*/
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+
+}
+
+
+.browser text {
+  text-anchor: end;
+}
+
+
+
+.chart.active {
+display: block; 
+/*//Any chart that also has the class `active` will be visible.*/
+}
+

@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "Young Kwon",
+        "Text": "At the top of the big parking structure by the police station. Also with the blue glasses with quotes on the staircases of the parking structure. It's just relaxing and calming because not many people are up on the parking lot and I can see CoMo from the top.",
+        "Photo": "",
+        "Video": "<iframe width='100%' height='300' src='https://www.youtube.com/embed/IUPDH7hnpUA' frameborder='0' allowfullscreen></iframe>",
+        "Audio": "",
+        "Location": "Parking garage",
+        "latitude": 38.952482,
+        "longitude": -92.331244
+    },
+    {
+        "Name": "Bill Victor",
+        "Text": "I started campus ministry, Missio Dei (Mission of God), at MU in 2009. Two students who were involved decided to convert to Christianity over the course of the ministry. We had no access to a baptistery so we went to Hinkson Creek, and I baptized them along with my daughter who was 12 at the time. Afterward we had a party with a picnic with friends, family and fellow students.",
+        "Photo": "",
+        "Video": "",
+        "Audio": "",
+        "Location": "Hinkson Creek",
+        "latitude": 38.927226,
+        "longitude": -92.315979 
+    },
+    {
+        "Name": "Maria Kalaitzandonakes",
+        "Text": "My favorite place is Sparky's! It's delicious, a beautiful spot to hang out with friends, and I met my boyfriend there three years ago. We still go all the time to 'cheers' our relationship with a cone.",
+        "Photo": "",
+        "Video": "<iframe width='100%' height='300' src='https://www.youtube.com/embed/DhOn_yddWRE' frameborder='0' allowfullscreen></iframe>",
+        "Audio": "",
+        "Location": "Sparky's Homemade Ice Cream",
+        "latitude": 38.951037,
+        "longitude": -92.327808
+    },
+    {
+        "Name": "Ryan Caffrey",
+        "Text": "You know in Columbia, as a kid it was kind of a hot air balloon destination anyway. You’d look up and see a dozen at a time. It was pretty amazing. It was definitely a very fond memory from my childhood. And that’s saying something, because I absolutely loved growing up in Columbia. I look back on my time there, and seeing the balloons is something that I miss. My dad and I would go to airshows when they were close by, especially at the Columbia Regional Airport.  To be able to walk outside on a Sunday and see the airplanes in the sky peaked my interest naturally.",
+        "Photo": "<img src='balloon.jpg' alt='Hot Air Balloon' style='width:354px;height:228px;'> <br> <em>Photo is from the 1997 Balloon Championships. It ran Aug. 10, 1997. Photo courtesy of Denise McGill/Columbia Daily Trbinue</em>",
+        "Video": "",
+        "Audio": "",
+        "Location": "Hot Air Balloon Championship",
+        "latitude": 38.818310,
+        "longitude": -92.219597
+    },
+    {
+        "Name": "McKenna Blair",
+        "Text": "My favorite place in Columbia is Shotgun Pete’s BBQ Shack. I discovered it early this year and come here on the regular with my friends. We like to come here on the weekends when we go hiking through Columbia. It reminds me of my home state of Texas.",
+        "Photo": "",
+        "Video": "<iframe width='100%' height='300' src='https://www.youtube.com/embed/2zhHaeH02wM' frameborder='0' allowfullscreen></iframe>",
+        "Audio": "",
+        "Location": "Shotgun Pete’s BBQ Shack",
+        "latitude": 38.951894,
+        "longitude": -92.327515
+    },
+    {
+        "Name": "Amber Simino-Woolfolk",
+        "Text": "My favorite place in Columbia is Stephens Lake Park. My favorite memory there is when my friends and I walked around and goofed off in the Park.  It is a very fun and family-friendly place. I also love the different events that are hosted in the park such as Art in the Park.",
+        "Photo": "",
+        "Video": "<iframe width='100%' height='300' src='https://www.youtube.com/embed/HHIabdAo4_c' frameborder='0' allowfullscreen></iframe>",
+        "Audio": "",
+        "Location": "Stephens Lake Park",
+        "latitude": 38.949316,
+        "longitude": -92.309143
+    }
+]

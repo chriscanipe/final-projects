@@ -1,0 +1,46 @@
+
+
+
+/*
+div {
+	outline: 1px solid green;
+}
+
+
+svg {
+	outline: 3px solid orange;
+}*/
+
+.chart {
+  height: 500px;
+  position: relative;
+}
+
+.tt {
+    background-color: #FFFFFF;
+    padding: 8 px;
+    outline: 1px solid #ccc;
+    display: none;
+    position: absolute;
+}
+
+.g {
+    color: ccc;
+}
+
+.blurb {
+    height: 500px;
+    position: relative;
+    font-size: 12px;
+}
+
+
+
+/* Axis styles */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
